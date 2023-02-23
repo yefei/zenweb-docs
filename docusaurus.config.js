@@ -7,18 +7,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ZenWeb',
-  tagline: '由 TypeScript 开发的模块化 web 开发框架',
+  tagline: '由 TypeScript 开发的模块化 Node.js Web 框架',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://zenweb.node.ltd',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'yefei', // Usually your GitHub org/user name.
   projectName: 'zenweb', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -41,8 +41,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -72,18 +71,28 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'getting-started',
+            docId: 'getting-started/env',
             position: 'left',
-            label: '快速开始',
+            label: '文档',
           },
-          {to: '/blog', label: '动态', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: '/blog',
+            label: '动态',
+            position: 'left',
+          },
+          {
+            href: 'https://github.com/yefei/zenorm',
+            label: 'ZenORM',
+            position: 'left',
+          },
+          {
+            href: 'https://github.com/yefei/zenweb',
             label: 'GitHub',
             position: 'right',
           },
         ],
       },
+      /*
       footer: {
         style: 'dark',
         links: [
@@ -127,8 +136,9 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ZenWeb. Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} ZenWeb.`,
       },
+      */
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
