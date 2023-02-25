@@ -3,6 +3,8 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const npm2yarn = require('@docusaurus/remark-plugin-npm2yarn');
+const tabblocks = require('docusaurus-remark-plugin-tab-blocks');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -42,6 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          remarkPlugins: [[npm2yarn, {}], [tabblocks, {}]],
         },
         blog: {
           showReadingTime: true,
