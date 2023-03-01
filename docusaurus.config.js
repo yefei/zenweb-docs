@@ -86,6 +86,7 @@ const config = {
             label: '动态',
             position: 'left',
           },
+          /*
           {
             href: 'https://github.com/yefei/zenorm',
             label: 'ZenORM',
@@ -96,6 +97,7 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          */
         ],
       },
       /*
