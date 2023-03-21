@@ -156,6 +156,12 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },
+      algolia: {
+        appId: '31C3QATM6N',
+        apiKey: 'd4a50890eb3b6063d477e1bb2002a908',
+        indexName: 'zenweb',
+        contextualSearch: true,
+      },
     }),
 };
 
