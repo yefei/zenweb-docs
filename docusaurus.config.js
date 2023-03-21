@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://zenweb.node.ltd',
+  url: 'https://zenweb.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -43,7 +43,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/yefei/zenweb-docs/tree/master/docs/',
           remarkPlugins: [
             [npm2yarn, {}],
             [tabblocks, {}],
@@ -54,7 +54,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/yefei/zenweb-docs/tree/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -100,10 +100,10 @@ const config = {
           */
         ],
       },
-      /*
       footer: {
         style: 'dark',
         links: [
+          /*
           {
             title: 'Docs',
             items: [
@@ -143,10 +143,10 @@ const config = {
               },
             ],
           },
+          */
         ],
         copyright: `© ${new Date().getFullYear()} ZenWeb.`,
       },
-      */
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
