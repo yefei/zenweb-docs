@@ -92,12 +92,12 @@ const config = {
             label: 'ZenORM',
             position: 'left',
           },
+          */
           {
             href: 'https://github.com/yefei/zenweb',
             label: 'GitHub',
             position: 'right',
           },
-          */
         ],
       },
       footer: {
