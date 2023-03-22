@@ -9,7 +9,7 @@ const tabblocks = require('docusaurus-remark-plugin-tab-blocks');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ZenWeb',
-  tagline: '由 TypeScript 开发的模块化 Node.js Web 框架',
+  tagline: '由 TypeScript 编写的模块化 Node.js Web 框架',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
