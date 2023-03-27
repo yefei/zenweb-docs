@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://zenweb.vercel.app',
+  url: 'https://zenweb.node.ltd',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -87,14 +87,9 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://zenorm.vercel.app',
+            href: 'https://zenorm.node.ltd',
             label: 'ZenORM',
             position: 'left',
-          },
-          {
-            href: 'https://github.com/yefei/zenweb',
-            label: 'GitHub',
-            position: 'right',
           },
         ],
       },
