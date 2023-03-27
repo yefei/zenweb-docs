@@ -10,10 +10,10 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: '使用简单',
+    title: '企业级',
     description: (
       <>
-        项目框架定义清晰明了，丰富案例教程
+        项目框架全部采用 TypeScript 开发，强类型检查，拥有企业级的开发与维护能力
       </>
     ),
   },
@@ -26,10 +26,10 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: '模块设计',
+    title: '模块化',
     description: (
       <>
-        项目功能全部模块化，可按需配置使用
+        项目功能全部模块化，不臃肿，可根据项目按需配置使用
       </>
     ),
   },
