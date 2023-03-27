@@ -86,13 +86,11 @@ const config = {
             label: '动态',
             position: 'left',
           },
-          /*
           {
-            href: 'https://github.com/yefei/zenorm',
+            href: 'https://zenorm.vercel.app',
             label: 'ZenORM',
             position: 'left',
           },
-          */
           {
             href: 'https://github.com/yefei/zenweb',
             label: 'GitHub',
