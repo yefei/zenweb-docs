@@ -44,7 +44,8 @@ export default function Home(): JSX.Element {
               <CodeBlock language="ts" title="src/index.ts">{`
 import { create } from 'zenweb';
 
-create().start();
+create()
+.start();
 `.trim()             }</CodeBlock>
             </div>
             <div className={clsx('col col--4')}>
