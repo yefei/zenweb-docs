@@ -3,7 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-const npm2yarn = require('@docusaurus/remark-plugin-npm2yarn');
+// const npm2yarn = require('@docusaurus/remark-plugin-npm2yarn');
 const tabblocks = require('docusaurus-remark-plugin-tab-blocks');
 
 /** @type {import('@docusaurus/types').Config} */
@@ -45,7 +45,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/yefei/zenweb-docs/tree/master/',
           remarkPlugins: [
-            [npm2yarn, {}],
+            // [npm2yarn, {}],
             [tabblocks, {}],
           ],
         },
