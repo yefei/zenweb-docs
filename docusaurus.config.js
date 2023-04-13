@@ -93,10 +93,9 @@ const config = {
           },
         ],
       },
+      /*
       footer: {
-        style: 'dark',
         links: [
-          /*
           {
             title: 'Docs',
             items: [
@@ -136,10 +135,10 @@ const config = {
               },
             ],
           },
-          */
         ],
         copyright: `© ${new Date().getFullYear()} ZenWeb.`,
       },
+      */
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
