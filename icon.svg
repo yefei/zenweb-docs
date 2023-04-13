@@ -1,14 +1,15 @@
-<svg width="550" height="550" xmlns="http://www.w3.org/2000/svg">
- <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+ <title>zenweb</title>
 
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
  <g>
   <title>Layer 1</title>
-  <rect fill="#191919" stroke="#191919" stroke-width="30" x="15" y="15" width="520" height="520" id="svg_2" rx="15"/>
-  <g id="svg_3">
-   <rect fill="none" stroke-width="30" x="89.99991" y="89.9999" width="300" height="20" id="svg_8" rx="10" stroke="#ffffff"/>
-   <rect fill="none" stroke-width="30" x="31.37413" y="231.37413" width="420" height="20" id="svg_9" rx="10" stroke="#ffffff" transform="rotate(-45 241.374 241.374)"/>
-   <rect fill="none" stroke-width="30" x="98.62585" y="298.62585" width="420" height="20" id="svg_14" rx="10" stroke="#ffffff" transform="rotate(-45 308.626 308.626)"/>
-   <rect fill="none" stroke-width="30" x="159.99991" y="439.9999" width="300" height="20" id="svg_15" rx="10" stroke="#ffffff"/>
+  <rect rx="50" id="svg_3" height="600" width="600" y="0" x="0" fill="#191919"/>
+  <g id="svg_1">
+   <rect fill="#fff" x="120.00017" y="98.71691" width="250" height="50" id="svg_8" rx="25"/>
+   <rect transform="rotate(-60 246.163 300)" fill="#fff" x="18.66297" y="274.99986" width="455" height="50" id="svg_9" rx="25"/>
+   <rect transform="rotate(-60 353.837 300)" fill="#fff" x="126.33709" y="275.00007" width="455" height="50" id="svg_14" rx="25"/>
+   <rect fill="#fff" x="230.00017" y="450.71691" width="250" height="50" id="svg_15" rx="25"/>
   </g>
  </g>
 </svg>
