@@ -10,15 +10,15 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: '企业级',
+    title: '健壮',
     description: (
       <>
-        项目框架全部采用 TypeScript 开发，强类型检查，拥有企业级的开发与维护能力
+        项目框架全部采用 TypeScript 开发，强类型检查，完全的代码补全，拥有企业级的开发与维护能力
       </>
     ),
   },
   {
-    title: '代码解偶',
+    title: '易用',
     description: (
       <>
         使用依赖注入技术，代码解偶易于开发维护
@@ -26,7 +26,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: '模块化',
+    title: '模块',
     description: (
       <>
         项目功能全部模块化，不臃肿，可根据项目按需配置使用
