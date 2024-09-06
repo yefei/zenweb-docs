@@ -50,10 +50,13 @@ create()
             </div>
             <div className={clsx('col col--4')}>
               <CodeBlock language="ts" title="src/service/hello.ts">{`
-import { inject } from 'zenweb';
+import { component } from 'zenweb';
 
+@component
 export class HelloService {
-  @inject ctx: Context;
+  constructor(
+    private ctx: Context, // 依赖注入
+  ) {}
 
   getIp() {
     return this.ctx.ip;
