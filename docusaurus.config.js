@@ -3,7 +3,6 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-// const npm2yarn = require('@docusaurus/remark-plugin-npm2yarn');
 const tabblocks = require('docusaurus-remark-plugin-tab-blocks');
 
 /** @type {import('@docusaurus/types').Config} */
@@ -23,7 +22,7 @@ const config = {
   organizationName: 'yefei', // Usually your GitHub org/user name.
   projectName: 'zenweb', // Usually your repo name.
 
-  onBrokenLinks: 'ignore',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -45,7 +44,6 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/yefei/zenweb-docs/tree/master/',
           remarkPlugins: [
-            // [npm2yarn, {}],
             [tabblocks, {}],
           ],
         },
